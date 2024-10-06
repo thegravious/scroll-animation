@@ -3,7 +3,7 @@ const context = canvas.getContext("2d");
 
 const frames = {
     currentIndex: 0,
-    maxIndex: 145
+    maxIndex: 100
 };
 
 let imageLoaded = 0;
