@@ -3,7 +3,7 @@ const context = canvas.getContext("2d");
 
 const frames = {
     currentIndex: 0,
-    maxIndex: 100
+    maxIndex: 145
 };
 
 let imageLoaded = 0;
@@ -58,6 +58,7 @@ function startAnimation() {
             trigger: ".parent",
             start: "top top",
             scrub: 2,
+            // imageSmoothingEnabled : true
             end: "bottom bottom",
 
         }
